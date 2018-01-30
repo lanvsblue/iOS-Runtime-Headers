@@ -1,0 +1,187 @@
+<HTML>
+<HEAD>
+<TITLE>Sharing.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/Sharing.framework
+129 classes
+
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingAirDropPeerDiscoveredInfo.h">AWDSharingAirDropPeerDiscoveredInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingAirDropSessionInfo.h">AWDSharingAirDropSessionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingAirDropTransferResult.h">AWDSharingAirDropTransferResult.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingContinuityKeyboardResult.h">AWDSharingContinuityKeyboardResult.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingContinuityKeyboardSettings.h">AWDSharingContinuityKeyboardSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingContinuityKeyboardTriggered.h">AWDSharingContinuityKeyboardTriggered.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingCoordinatedAlertResult.h">AWDSharingCoordinatedAlertResult.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingProximityPairingResult.h">AWDSharingProximityPairingResult.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingProximityPairingTriggered.h">AWDSharingProximityPairingTriggered.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingProximityStatusResult.h">AWDSharingProximityStatusResult.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingProximityStatusTriggered.h">AWDSharingProximityStatusTriggered.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingProximityiOSSetupResult.h">AWDSharingProximityiOSSetupResult.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingProximityiOSSetupTriggered.h">AWDSharingProximityiOSSetupTriggered.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/AWDSharingRemoteDiscMountResult.h">AWDSharingRemoteDiscMountResult.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAccountManager.h">SFAccountManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFActivityAdvertisement.h">SFActivityAdvertisement.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFActivityAdvertiser.h">SFActivityAdvertiser.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFActivityScanner.h">SFActivityScanner.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropAction.h">SFAirDropAction.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropActiveIconView.h">SFAirDropActiveIconView.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropActivityViewController.h">SFAirDropActivityViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropBrowser.h">SFAirDropBrowser.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropClassroomTransferManager.h">SFAirDropClassroomTransferManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropDiscoveryController.h">SFAirDropDiscoveryController.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropIconView.h">SFAirDropIconView.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropNode.h">SFAirDropNode.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropPayload.h">SFAirDropPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropReceiverViewController.h">SFAirDropReceiverViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropSharingViewControllerTV.h">SFAirDropSharingViewControllerTV.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropTransfer.h">SFAirDropTransfer.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropTransferItem.h">SFAirDropTransferItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropTransferMetaData.h">SFAirDropTransferMetaData.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAirDropTransferObserver.h">SFAirDropTransferObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAppleIDAccount.h">SFAppleIDAccount.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAppleIDClient.h">SFAppleIDClient.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAppleIDContactInfo.h">SFAppleIDContactInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAppleIDIdentity.h">SFAppleIDIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAppleIDPersonInfo.h">SFAppleIDPersonInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAppleIDValidationRecord.h">SFAppleIDValidationRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAutoUnlockDevice.h">SFAutoUnlockDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFAutoUnlockManager.h">SFAutoUnlockManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFBLEAdvertiser.h">SFBLEAdvertiser.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFBLEClient.h">SFBLEClient.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFBLEConnection.h">SFBLEConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFBLEData.h">SFBLEData.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFBLEDevice.h">SFBLEDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFBLEPipe.h">SFBLEPipe.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFBLEScanner.h">SFBLEScanner.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFBatteryInfo.h">SFBatteryInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFBluetoothPairingSession.h">SFBluetoothPairingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFChargingBackgroundView.h">SFChargingBackgroundView.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFChargingCenterClient.h">SFChargingCenterClient.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFChargingUICoordinator.h">SFChargingUICoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFChargingUIEffects.h">SFChargingUIEffects.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFCircleProgressLayer.h">SFCircleProgressLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFCircleProgressView.h">SFCircleProgressView.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFClient.h">SFClient.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFCollectionViewLayout.h">SFCollectionViewLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFCompanionAdvertiser.h">SFCompanionAdvertiser.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFCompanionManager.h">SFCompanionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFCompanionService.h">SFCompanionService.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFCompanionXPCManager.h">SFCompanionXPCManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFContinuityRemoteSession.h">SFContinuityRemoteSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFContinuityScanManager.h">SFContinuityScanManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFCoordinatedAlertRequest.h">SFCoordinatedAlertRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDevice.h">SFDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceAssetManager.h">SFDeviceAssetManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceAssetQuery.h">SFDeviceAssetQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceAssetTask.h">SFDeviceAssetTask.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceDiscovery.h">SFDeviceDiscovery.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceOperationHandlerWiFiSetup.h">SFDeviceOperationHandlerWiFiSetup.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceOperationHomeKitSetup.h">SFDeviceOperationHomeKitSetup.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceOperationWiFiSetup.h">SFDeviceOperationWiFiSetup.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceRepairService.h">SFDeviceRepairService.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceRepairSession.h">SFDeviceRepairSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceSetupAppleTVService.h">SFDeviceSetupAppleTVService.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceSetupAppleTVSession.h">SFDeviceSetupAppleTVSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceSetupB238Service.h">SFDeviceSetupB238Service.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceSetupB238Session.h">SFDeviceSetupB238Session.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceSetupServiceiOS.h">SFDeviceSetupServiceiOS.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceSetupSessioniOS.h">SFDeviceSetupSessioniOS.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceSetupWHAService.h">SFDeviceSetupWHAService.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDeviceSetupWHASession.h">SFDeviceSetupWHASession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFDiagnostics.h">SFDiagnostics.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFEventMessage.h">SFEventMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFInternalAdvertisement.h">SFInternalAdvertisement.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFMessage.h">SFMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFMessageSessionRequestEntry.h">SFMessageSessionRequestEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFNFCTagReaderUIController.h">SFNFCTagReaderUIController.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFPINPairSession.h">SFPINPairSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFPasswordSharingInfo.h">SFPasswordSharingInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFPasswordSharingService.h">SFPasswordSharingService.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFPasswordSharingSession.h">SFPasswordSharingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFPeerDevice.h">SFPeerDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFPersonCollectionViewCell.h">SFPersonCollectionViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFPersonImageView.h">SFPersonImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFProximityEstimator.h">SFProximityEstimator.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFProximityEstimatorMaxOfMean.h">SFProximityEstimatorMaxOfMean.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFRemoteAutoFillService.h">SFRemoteAutoFillService.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFRemoteAutoFillSession.h">SFRemoteAutoFillSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFRemoteHotspotDevice.h">SFRemoteHotspotDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFRemoteHotspotInfo.h">SFRemoteHotspotInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFRemoteHotspotSession.h">SFRemoteHotspotSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFRemoteInteractionSession.h">SFRemoteInteractionSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFRemoteTextSessionInfo.h">SFRemoteTextSessionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFRequestMessage.h">SFRequestMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFResponseMessage.h">SFResponseMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFService.h">SFService.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFServiceSession.h">SFServiceSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSession.h">SFSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSessionCache.h">SFSessionCache.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSessionRequestInfo.h">SFSessionRequestInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSiriClient.h">SFSiriClient.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSiriDeviceSetupGreetingDetails.h">SFSiriDeviceSetupGreetingDetails.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSiriRequest.h">SFSiriRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSiriWordTimingInfo.h">SFSiriWordTimingInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSiriWordTimingPlayer.h">SFSiriWordTimingPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFStateMachine.h">SFStateMachine.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSystemService.h">SFSystemService.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFSystemSession.h">SFSystemSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFTRSession.h">SFTRSession.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFTermsAndConditionsManager.h">SFTermsAndConditionsManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFUnlockManager.h">SFUnlockManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFUnlockState.h">SFUnlockState.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFViewServiceManager.h">SFViewServiceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFWiFiHealthMonitor.h">SFWiFiHealthMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFWiFiLogger.h">SFWiFiLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFWirelessSettingsController.h">SFWirelessSettingsController.h</A>
+<A HREF="/tree/PrivateFrameworks/Sharing.framework/SFXPCClient.h">SFXPCClient.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

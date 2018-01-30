@@ -1,0 +1,259 @@
+<HTML>
+<HEAD>
+<TITLE>SearchFoundation.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SearchFoundation.framework
+201 classes
+
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/ImageFileLoader.h">ImageFileLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFAbstractCommand.h">SFAbstractCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFActionItem.h">SFActionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFActivityIndicatorCardSection.h">SFActivityIndicatorCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFAirport.h">SFAirport.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFApiResults.h">SFApiResults.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFAppIconImage.h">SFAppIconImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFAppLink.h">SFAppLink.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFAppLinkCardSection.h">SFAppLinkCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFAudioPlaybackCardSection.h">SFAudioPlaybackCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFButton.h">SFButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCalendarImage.h">SFCalendarImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCard.h">SFCard.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCardSection.h">SFCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCardSectionEngagementFeedback.h">SFCardSectionEngagementFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCardSectionFeedback.h">SFCardSectionFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCardSectionValue.h">SFCardSectionValue.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCardViewAppearFeedback.h">SFCardViewAppearFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCardViewDisappearFeedback.h">SFCardViewDisappearFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFClearInputFeedback.h">SFClearInputFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFClientTimingFeedback.h">SFClientTimingFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFColor.h">SFColor.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCommandValue.h">SFCommandValue.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFContactImage.h">SFContactImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCustom.h">SFCustom.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFCustomFeedback.h">SFCustomFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFDescriptionCardSection.h">SFDescriptionCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFDetailedRowCardSection.h">SFDetailedRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFDidGoToSearchFeedback.h">SFDidGoToSearchFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFDidGoToSiteFeedback.h">SFDidGoToSiteFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFDynamicURLImageResource.h">SFDynamicURLImageResource.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFEndLocalSearchFeedback.h">SFEndLocalSearchFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFEndNetworkSearchFeedback.h">SFEndNetworkSearchFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFEndSearchFeedback.h">SFEndSearchFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFErrorFeedback.h">SFErrorFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFFeedback.h">SFFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFFlight.h">SFFlight.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFFlightCardSection.h">SFFlightCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFFlightLeg.h">SFFlightLeg.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFFormattedText.h">SFFormattedText.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFImage.h">SFImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFImageOption.h">SFImageOption.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFImagesCardSection.h">SFImagesCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFKeyValueDataCardSection.h">SFKeyValueDataCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFKeyValueTuple.h">SFKeyValueTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFLatLng.h">SFLatLng.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFLateSectionsAppendedFeedback.h">SFLateSectionsAppendedFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFLocalImage.h">SFLocalImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFLookupHintRelevancyFeedback.h">SFLookupHintRelevancyFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMapCardSection.h">SFMapCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMapCardSectionEngagementFeedback.h">SFMapCardSectionEngagementFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMapRegion.h">SFMapRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMapsCardSectionEngagementFeedback.h">SFMapsCardSectionEngagementFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMediaDetail.h">SFMediaDetail.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMediaInfoCardSection.h">SFMediaInfoCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMediaItem.h">SFMediaItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMediaOffer.h">SFMediaOffer.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMediaPlayerCardSection.h">SFMediaPlayerCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMessageCardSection.h">SFMessageCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMetaInfoCardSection.h">SFMetaInfoCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMonogramImage.h">SFMonogramImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFMoreResults.h">SFMoreResults.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFNamedProtobufMessage.h">SFNamedProtobufMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFNowPlayingCardSection.h">SFNowPlayingCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFNullCardSection.h">SFNullCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFPBCardSectionTranslator.h">SFPBCardSectionTranslator.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFPBCardSectionValueTranslator.h">SFPBCardSectionValueTranslator.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFPBSerialization.h">SFPBSerialization.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFPunchout.h">SFPunchout.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFRankingFeedback.h">SFRankingFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFReferentialCommand.h">SFReferentialCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFResultEngagementFeedback.h">SFResultEngagementFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFResultFeedback.h">SFResultFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFResultGradingFeedback.h">SFResultGradingFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFResultRankingFeedback.h">SFResultRankingFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFResultSection.h">SFResultSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFResultsReceivedAfterTimeoutFeedback.h">SFResultsReceivedAfterTimeoutFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFRichText.h">SFRichText.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFRichTitleCardSection.h">SFRichTitleCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFRowCardSection.h">SFRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFScoreboardCardSection.h">SFScoreboardCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSearchResult.h">SFSearchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSearchSuggestion.h">SFSearchSuggestion.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSearchViewAppearFeedback.h">SFSearchViewAppearFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSearchViewDisappearFeedback.h">SFSearchViewDisappearFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSectionEngagementFeedback.h">SFSectionEngagementFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSectionHeaderCardSection.h">SFSectionHeaderCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSectionRankingFeedback.h">SFSectionRankingFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSelectableGridCardSection.h">SFSelectableGridCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSocialMediaPostCardSection.h">SFSocialMediaPostCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSportsTeam.h">SFSportsTeam.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFStartLocalSearchFeedback.h">SFStartLocalSearchFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFStartNetworkSearchFeedback.h">SFStartNetworkSearchFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFStartSearchFeedback.h">SFStartSearchFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFStockChartCardSection.h">SFStockChartCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFStoreCardSectionEngagementFeedback.h">SFStoreCardSectionEngagementFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSuggestionCardSection.h">SFSuggestionCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFSuggestionEngagementFeedback.h">SFSuggestionEngagementFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTableAlignmentSchema.h">SFTableAlignmentSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTableColumnAlignment.h">SFTableColumnAlignment.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTableHeaderRowCardSection.h">SFTableHeaderRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTableRowCardSection.h">SFTableRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFText.h">SFText.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTextColumn.h">SFTextColumn.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTextColumnSection.h">SFTextColumnSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTextColumnsCardSection.h">SFTextColumnsCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTitleCardSection.h">SFTitleCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTitleSubtitleTuple.h">SFTitleSubtitleTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTrack.h">SFTrack.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFTrackListCardSection.h">SFTrackListCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFURLImage.h">SFURLImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFUserActivityData.h">SFUserActivityData.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFUserActivityInfo.h">SFUserActivityInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFVisibleResultsFeedback.h">SFVisibleResultsFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFVisibleSectionHeaderFeedback.h">SFVisibleSectionHeaderFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFVisibleSuggestionsFeedback.h">SFVisibleSuggestionsFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFWatchListCardSection.h">SFWatchListCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFWatchListItem.h">SFWatchListItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/SFWebCardSection.h">SFWebCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/WeakListener.h">WeakListener.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/WeakLoader.h">WeakLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBAbstractCommand.h">_SFPBAbstractCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBActionItem.h">_SFPBActionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBActivityIndicatorCardSection.h">_SFPBActivityIndicatorCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBAirport.h">_SFPBAirport.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBApiResults.h">_SFPBApiResults.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBAppIconImage.h">_SFPBAppIconImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBAppLink.h">_SFPBAppLink.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBAppLinkCardSection.h">_SFPBAppLinkCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBAudioPlaybackCardSection.h">_SFPBAudioPlaybackCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBButton.h">_SFPBButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBCard.h">_SFPBCard.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBCardSection.h">_SFPBCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBCardSectionValue.h">_SFPBCardSectionValue.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBColor.h">_SFPBColor.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBCommandValue.h">_SFPBCommandValue.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBContactImage.h">_SFPBContactImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBDate.h">_SFPBDate.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBDescriptionCardSection.h">_SFPBDescriptionCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBDetailedRowCardSection.h">_SFPBDetailedRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBDynamicURLImageResource.h">_SFPBDynamicURLImageResource.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBFlight.h">_SFPBFlight.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBFlightCardSection.h">_SFPBFlightCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBFlightLeg.h">_SFPBFlightLeg.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBFormattedText.h">_SFPBFormattedText.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBGraphicalFloat.h">_SFPBGraphicalFloat.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBImage.h">_SFPBImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBImageOption.h">_SFPBImageOption.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBImagesCardSection.h">_SFPBImagesCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBKeyValueDataCardSection.h">_SFPBKeyValueDataCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBKeyValueTuple.h">_SFPBKeyValueTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBLatLng.h">_SFPBLatLng.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBLocalImage.h">_SFPBLocalImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMapCardSection.h">_SFPBMapCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMapRegion.h">_SFPBMapRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMediaDetail.h">_SFPBMediaDetail.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMediaInfoCardSection.h">_SFPBMediaInfoCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMediaItem.h">_SFPBMediaItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMediaOffer.h">_SFPBMediaOffer.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMediaPlayerCardSection.h">_SFPBMediaPlayerCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMessageCardSection.h">_SFPBMessageCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMetaInfoCardSection.h">_SFPBMetaInfoCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMonogramImage.h">_SFPBMonogramImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBMoreResults.h">_SFPBMoreResults.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBNamedProtobufMessage.h">_SFPBNamedProtobufMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBNowPlayingCardSection.h">_SFPBNowPlayingCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBPointSize.h">_SFPBPointSize.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBPunchout.h">_SFPBPunchout.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBReferentialCommand.h">_SFPBReferentialCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBRichText.h">_SFPBRichText.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBRichTitleCardSection.h">_SFPBRichTitleCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBRowCardSection.h">_SFPBRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBScoreboardCardSection.h">_SFPBScoreboardCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBSearchSuggestion.h">_SFPBSearchSuggestion.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBSectionHeaderCardSection.h">_SFPBSectionHeaderCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBSelectableGridCardSection.h">_SFPBSelectableGridCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBSocialMediaPostCardSection.h">_SFPBSocialMediaPostCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBSportsTeam.h">_SFPBSportsTeam.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBStockChartCardSection.h">_SFPBStockChartCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBStringDictionary.h">_SFPBStringDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBSuggestionCardSection.h">_SFPBSuggestionCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTableAlignmentSchema.h">_SFPBTableAlignmentSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTableColumnAlignment.h">_SFPBTableColumnAlignment.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTableHeaderRowCardSection.h">_SFPBTableHeaderRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTableRowCardSection.h">_SFPBTableRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBText.h">_SFPBText.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTextColumn.h">_SFPBTextColumn.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTextColumnSection.h">_SFPBTextColumnSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTextColumnsCardSection.h">_SFPBTextColumnsCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTimeZone.h">_SFPBTimeZone.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTitleCardSection.h">_SFPBTitleCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTitleSubtitleTuple.h">_SFPBTitleSubtitleTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTrack.h">_SFPBTrack.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBTrackListCardSection.h">_SFPBTrackListCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBURL.h">_SFPBURL.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBURLImage.h">_SFPBURLImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBUserActivityData.h">_SFPBUserActivityData.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBUserActivityInfo.h">_SFPBUserActivityInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBWatchListCardSection.h">_SFPBWatchListCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBWatchListItem.h">_SFPBWatchListItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchFoundation.framework/_SFPBWebCardSection.h">_SFPBWebCardSection.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

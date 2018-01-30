@@ -1,0 +1,172 @@
+<HTML>
+<HEAD>
+<TITLE>SearchUI.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SearchUI.framework
+114 classes
+
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUI.h">SearchUI.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAccessoryViewController.h">SearchUIAccessoryViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIActivityIndicatorCardSectionView.h">SearchUIActivityIndicatorCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAppIconButton.h">SearchUIAppIconButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAppIconImage.h">SearchUIAppIconImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAppIconImageCache.h">SearchUIAppIconImageCache.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAppIconPeekController.h">SearchUIAppIconPeekController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAppStoreButtonViewController.h">SearchUIAppStoreButtonViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAudioPlaybackCardSectionView.h">SearchUIAudioPlaybackCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAutoLayout.h">SearchUIAutoLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAuxiliaryTextViewController.h">SearchUIAuxiliaryTextViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIAvatarImage.h">SearchUIAvatarImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIButton.h">SearchUIButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIButtonsView.h">SearchUIButtonsView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICalendarIconImage.h">SearchUICalendarIconImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICalendarPeekViewController.h">SearchUICalendarPeekViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICalendarStore.h">SearchUICalendarStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICardSectionCreator.h">SearchUICardSectionCreator.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICardSectionRowModel.h">SearchUICardSectionRowModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICardSectionTableCell.h">SearchUICardSectionTableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICardSectionView.h">SearchUICardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICardViewController.h">SearchUICardViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICenteredResultTableViewCell.h">SearchUICenteredResultTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIChevronViewController.h">SearchUIChevronViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICloudDocumentImage.h">SearchUICloudDocumentImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUICombinedCardSectionTableCell.h">SearchUICombinedCardSectionTableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIConfirmationHUDTransitionController.h">SearchUIConfirmationHUDTransitionController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIConfirmationHUDView.h">SearchUIConfirmationHUDView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIConfirmationHUDViewController.h">SearchUIConfirmationHUDViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIContactStore.h">SearchUIContactStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIContactViewController.h">SearchUIContactViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIContactsThumbnailView.h">SearchUIContactsThumbnailView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIContentAdvisoryView.h">SearchUIContentAdvisoryView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIDescriptionCardSectionView.h">SearchUIDescriptionCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIDetailedRowCardSectionView.h">SearchUIDetailedRowCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIDragSource.h">SearchUIDragSource.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIDropTarget.h">SearchUIDropTarget.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIFallbackPeekViewController.h">SearchUIFallbackPeekViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIFirstTimeExperienceViewController.h">SearchUIFirstTimeExperienceViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIFlightCardSectionView.h">SearchUIFlightCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIForceTouchGestureRecognizer.h">SearchUIForceTouchGestureRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIGradingFeedbackViewController.h">SearchUIGradingFeedbackViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIGridLayoutManager.h">SearchUIGridLayoutManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIGridRowModel.h">SearchUIGridRowModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIIconView.h">SearchUIIconView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIIconViewContainer.h">SearchUIIconViewContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIImage.h">SearchUIImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIImageView.h">SearchUIImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIImagesCardSectionView.h">SearchUIImagesCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIInlineActionsViewController.h">SearchUIInlineActionsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIInternalDragObject.h">SearchUIInternalDragObject.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIKeyValueDataCardSectionView.h">SearchUIKeyValueDataCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIKeyboardableTableViewController.h">SearchUIKeyboardableTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUILocalMediaController.h">SearchUILocalMediaController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIMapCardSectionView.h">SearchUIMapCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIMediaArtworkImage.h">SearchUIMediaArtworkImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIMediaPlayerViewController.h">SearchUIMediaPlayerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIMessageCardSectionView.h">SearchUIMessageCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIMovieCardSectionBuyButtonView.h">SearchUIMovieCardSectionBuyButtonView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIMovieCardSectionUpNextButtonView.h">SearchUIMovieCardSectionUpNextButtonView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIMovieCardSectionView.h">SearchUIMovieCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIMultiResultRowModel.h">SearchUIMultiResultRowModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIMultiResultTableViewCell.h">SearchUIMultiResultTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUINowPlayingCardSectionView.h">SearchUINowPlayingCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUINowPlayingLabelContainer.h">SearchUINowPlayingLabelContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUINowPlayingSingleMovieCard.h">SearchUINowPlayingSingleMovieCard.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIPeekDelegate.h">SearchUIPeekDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIPlayButtonContainer.h">SearchUIPlayButtonContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIPlayButtonViewController.h">SearchUIPlayButtonViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIPrivacyDetailsViewController.h">SearchUIPrivacyDetailsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIRemoteAppIcon.h">SearchUIRemoteAppIcon.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIReplicatorView.h">SearchUIReplicatorView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIResultTableViewController.h">SearchUIResultTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIResultViewController.h">SearchUIResultViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIRichTitleCardSectionView.h">SearchUIRichTitleCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIRowCardSectionView.h">SearchUIRowCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISFImage.h">SearchUISFImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIScoreSummaryCardSectionView.h">SearchUIScoreSummaryCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISearchField.h">SearchUISearchField.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISectionHeaderCardSectionView.h">SearchUISectionHeaderCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISelectableGridCardSectionView.h">SearchUISelectableGridCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISelectableTextView.h">SearchUISelectableTextView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISeparatorView.h">SearchUISeparatorView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISingleResultRowModel.h">SearchUISingleResultRowModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISingleResultTableViewCell.h">SearchUISingleResultTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISuggestionCardSectionTableCell.h">SearchUISuggestionCardSectionTableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUISuggestionCardSectionView.h">SearchUISuggestionCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITLKConverters.h">SearchUITLKConverters.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITLKImageConverter.h">SearchUITLKImageConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITLKMultilineTextConverter.h">SearchUITLKMultilineTextConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITableHeaderView.h">SearchUITableHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITableModel.h">SearchUITableModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITableRowCardView.h">SearchUITableRowCardView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITableView.h">SearchUITableView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITableViewCell.h">SearchUITableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITableViewController.h">SearchUITableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIThumbnailView.h">SearchUIThumbnailView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITitleCardSectionView.h">SearchUITitleCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITrailerView.h">SearchUITrailerView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITrailersCardSectionView.h">SearchUITrailersCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUITwitterCardSectionView.h">SearchUITwitterCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIUtilities.h">SearchUIUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIVibrantLabel.h">SearchUIVibrantLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIVibrantView.h">SearchUIVibrantView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIVibrantWidthLimitedLabel.h">SearchUIVibrantWidthLimitedLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIWatchListCardRowModel.h">SearchUIWatchListCardRowModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIWatchListCardSectionView.h">SearchUIWatchListCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIWatchListCardsManager.h">SearchUIWatchListCardsManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIWatchListUtilities.h">SearchUIWatchListUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIWebCardSectionView.h">SearchUIWebCardSectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIWebClipIconImage.h">SearchUIWebClipIconImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIWidthLimitedImageView.h">SearchUIWidthLimitedImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIWidthLimitedLabel.h">SearchUIWidthLimitedLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchUI.framework/SearchUIWidthLimitedStackView.h">SearchUIWidthLimitedStackView.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

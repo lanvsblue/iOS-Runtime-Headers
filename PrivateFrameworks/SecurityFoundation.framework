@@ -1,0 +1,190 @@
+<HTML>
+<HEAD>
+<TITLE>SecurityFoundation.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SecurityFoundation.framework
+132 classes
+
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFAESEncryptionOperation.h">SFAESEncryptionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFAESKeySpecifier_Ivars.h">SFAESKeySpecifier_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFAccessControlEntry.h">SFAccessControlEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFAccessControlEntry_Ivars.h">SFAccessControlEntry_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFAccessPolicy_Ivars.h">SFAccessPolicy_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFAuthenticatedCiphertext_Ivars.h">SFAuthenticatedCiphertext_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFAuthenticatedEncryptionOperation_Ivars.h">SFAuthenticatedEncryptionOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFCMACOperation.h">SFCMACOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFCMACOperation_Ivars.h">SFCMACOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFCertificate_Ivars.h">SFCertificate_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFCiphertext_Ivars.h">SFCiphertext_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFCoder.h">SFCoder.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFCoder_Ivars.h">SFCoder_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFCodingOptions.h">SFCodingOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFCodingOptions_Ivars.h">SFCodingOptions_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFCredentialStore.h">SFCredentialStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFDecoder.h">SFDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFDecoder_Ivars.h">SFDecoder_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFECDHKeySource_Ivars.h">SFECDHKeySource_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFECDHOperation_Ivars.h">SFECDHOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFECKeySpecifier_Ivars.h">SFECKeySpecifier_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFEC_X962SigningOperation_Ivars.h">SFEC_X962SigningOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFHMACOperation.h">SFHMACOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFHMACOperation_Ivars.h">SFHMACOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFHMACPseudoRandomFunction.h">SFHMACPseudoRandomFunction.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFHMACPseudoRandomFunction_Ivars.h">SFHMACPseudoRandomFunction_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFIESCiphertext_Ivars.h">SFIESCiphertext_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFIESOperation_Ivars.h">SFIESOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFIdentityAttributes.h">SFIdentityAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFIdentityAttributes_Ivars.h">SFIdentityAttributes_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFIdentitySearchFilter.h">SFIdentitySearchFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFIdentitySearchFilter_Ivars.h">SFIdentitySearchFilter_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFIdentity_Ivars.h">SFIdentity_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFIncrementingIVGenerator.h">SFIncrementingIVGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFIncrementingIVGenerator_Ivars.h">SFIncrementingIVGenerator_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeyPair_Ivars.h">SFKeyPair_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeySearchFilter.h">SFKeySearchFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeySearchFilter_Ivars.h">SFKeySearchFilter_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKey_Ivars.h">SFKey_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeychainCredentialFetchResult.h">SFKeychainCredentialFetchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeychainData.h">SFKeychainData.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeychainDataAttributes.h">SFKeychainDataAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeychainDataAttributes_Ivars.h">SFKeychainDataAttributes_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeychainDataFetchResult.h">SFKeychainDataFetchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeychainData_Ivars.h">SFKeychainData_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeychainFetchResult_Ivars.h">SFKeychainFetchResult_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFKeychainManager_Ivars.h">SFKeychainManager_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFMD5DigestOperation_Ivars.h">SFMD5DigestOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFMaskGenerationFunction1.h">SFMaskGenerationFunction1.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFMaskGenerationFunction1_Ivars.h">SFMaskGenerationFunction1_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFMessageAuthenticationCodeOperation.h">SFMessageAuthenticationCodeOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFPBKDF2Operation.h">SFPBKDF2Operation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFPBKDF2Operation_Ivars.h">SFPBKDF2Operation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFPublicKey_Ivars.h">SFPublicKey_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSAEncryptionOperation.h">SFRSAEncryptionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSAEncryptionOperation_Ivars.h">SFRSAEncryptionOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSAKeyPair.h">SFRSAKeyPair.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSAKeySpecifier_Ivars.h">SFRSAKeySpecifier_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSAPublicKey.h">SFRSAPublicKey.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSASigningOperation.h">SFRSASigningOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSASigningOperation_Ivars.h">SFRSASigningOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSA_OAEPEncryptionOperation.h">SFRSA_OAEPEncryptionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSA_OAEPEncryptionOperation_Ivars.h">SFRSA_OAEPEncryptionOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSA_PKCS1EncryptionOperation.h">SFRSA_PKCS1EncryptionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSA_PSSSigningOperation.h">SFRSA_PSSSigningOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSA_PSSSigningOperation_Ivars.h">SFRSA_PSSSigningOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSA_WrappedKeyEncryptionOperation.h">SFRSA_WrappedKeyEncryptionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRSA_WrappedKeyEncryptionOperation_Ivars.h">SFRSA_WrappedKeyEncryptionOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRevocationPolicy.h">SFRevocationPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFRevocationPolicy_Ivars.h">SFRevocationPolicy_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSHA1DigestOperation_Ivars.h">SFSHA1DigestOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSHA224DigestOperation_Ivars.h">SFSHA224DigestOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSHA256DigestOperation_Ivars.h">SFSHA256DigestOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSHA384DigestOperation_Ivars.h">SFSHA384DigestOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSHA512DigestOperation_Ivars.h">SFSHA512DigestOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSSLClientTrustPolicy.h">SFSSLClientTrustPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSSLClientTrustPolicy_Ivars.h">SFSSLClientTrustPolicy_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSSLServerTrustPolicy.h">SFSSLServerTrustPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSSLServerTrustPolicy_Ivars.h">SFSSLServerTrustPolicy_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSignedData_Ivars.h">SFSignedData_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSymmetricEncryptionOperation.h">SFSymmetricEncryptionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSymmetricEncryptionOperation_Ivars.h">SFSymmetricEncryptionOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSymmetricKeyAttributes.h">SFSymmetricKeyAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSymmetricKeyAttributes_Ivars.h">SFSymmetricKeyAttributes_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFSymmetricKey_Ivars.h">SFSymmetricKey_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFTripleDESEncryptionOperation.h">SFTripleDESEncryptionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFTripleDESKey.h">SFTripleDESKey.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFTrustEvaluator.h">SFTrustEvaluator.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFTrustEvaluator_Ivars.h">SFTrustEvaluator_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFTrustPolicy.h">SFTrustPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFWrappedKeyCiphertext.h">SFWrappedKeyCiphertext.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFWrappedKeyCiphertext_Ivars.h">SFWrappedKeyCiphertext_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFX509TrustPolicy.h">SFX509TrustPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFX963KeyDerivationOperation.h">SFX963KeyDerivationOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/SFX963KeyDerivationOperation_Ivars.h">SFX963KeyDerivationOperation_Ivars.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFAESKey.h">_SFAESKey.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFAESKeySpecifier.h">_SFAESKeySpecifier.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFAccessPolicy.h">_SFAccessPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFAsymmetricKeyAttributes.h">_SFAsymmetricKeyAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFAsymmetricKeySpecifier.h">_SFAsymmetricKeySpecifier.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFAuthenticatedCiphertext.h">_SFAuthenticatedCiphertext.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFAuthenticatedEncryptionOperation.h">_SFAuthenticatedEncryptionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFCertificate.h">_SFCertificate.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFCiphertext.h">_SFCiphertext.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFECDHKeySource.h">_SFECDHKeySource.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFECDHOperation.h">_SFECDHOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFECKeyPair.h">_SFECKeyPair.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFECKeySpecifier.h">_SFECKeySpecifier.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFECPublicKey.h">_SFECPublicKey.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFEC_X962SigningOperation.h">_SFEC_X962SigningOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFIESCiphertext.h">_SFIESCiphertext.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFIESOperation.h">_SFIESOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFIdentity.h">_SFIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFKey.h">_SFKey.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFKeyPair.h">_SFKeyPair.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFKeySpecifier.h">_SFKeySpecifier.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFKeychainFetchResult.h">_SFKeychainFetchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFKeychainIdentityFetchResult.h">_SFKeychainIdentityFetchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFKeychainKeyFetchResult.h">_SFKeychainKeyFetchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFKeychainManager.h">_SFKeychainManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFMD5DigestOperation.h">_SFMD5DigestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFPublicKey.h">_SFPublicKey.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFRSAKeySpecifier.h">_SFRSAKeySpecifier.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFSHA1DigestOperation.h">_SFSHA1DigestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFSHA224DigestOperation.h">_SFSHA224DigestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFSHA256DigestOperation.h">_SFSHA256DigestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFSHA384DigestOperation.h">_SFSHA384DigestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFSHA512DigestOperation.h">_SFSHA512DigestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFSignedData.h">_SFSignedData.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFSymmetricKey.h">_SFSymmetricKey.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFSymmetricKeySpecifier.h">_SFSymmetricKeySpecifier.h</A>
+<A HREF="/tree/PrivateFrameworks/SecurityFoundation.framework/_SFTripleDESKeySpecifier.h">_SFTripleDESKeySpecifier.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

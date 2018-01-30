@@ -1,0 +1,138 @@
+<HTML>
+<HEAD>
+<TITLE>ProactiveML.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/ProactiveML.framework
+80 classes
+
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingAvailableSessions.h">AWDProactiveModelFittingAvailableSessions.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingEvalMetrics.h">AWDProactiveModelFittingEvalMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingEvaluation.h">AWDProactiveModelFittingEvaluation.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingLabelSupportPair.h">AWDProactiveModelFittingLabelSupportPair.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingLinRegFeatureMatrix.h">AWDProactiveModelFittingLinRegFeatureMatrix.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingLinRegObjectiveFeatures.h">AWDProactiveModelFittingLinRegObjectiveFeatures.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingLogRegGradient.h">AWDProactiveModelFittingLogRegGradient.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingLogRegWeights.h">AWDProactiveModelFittingLogRegWeights.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingMinibatchStats.h">AWDProactiveModelFittingMinibatchStats.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingModelInfo.h">AWDProactiveModelFittingModelInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingModelInfoStatsPair.h">AWDProactiveModelFittingModelInfoStatsPair.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingParsecFeedbackEnvelope.h">AWDProactiveModelFittingParsecFeedbackEnvelope.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingPrecisionAtKPair.h">AWDProactiveModelFittingPrecisionAtKPair.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingQuantizedDenseVector.h">AWDProactiveModelFittingQuantizedDenseVector.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingQuantizedSparseMatrix.h">AWDProactiveModelFittingQuantizedSparseMatrix.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingQuantizedSparseVector.h">AWDProactiveModelFittingQuantizedSparseVector.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingSession.h">AWDProactiveModelFittingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingSparseFloatMatrix.h">AWDProactiveModelFittingSparseFloatMatrix.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/AWDProactiveModelFittingSparseFloatVector.h">AWDProactiveModelFittingSparseFloatVector.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAWDAvailableSessionsTracker.h">PMLAWDAvailableSessionsTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAWDAvailableSessionsTrackerMock.h">PMLAWDAvailableSessionsTrackerMock.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAWDBaseTracker.h">PMLAWDBaseTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAWDEvaluationTrackerMock.h">PMLAWDEvaluationTrackerMock.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAWDLinearRegTrackerMock.h">PMLAWDLinearRegTrackerMock.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAWDLogisticRegTrackerMock.h">PMLAWDLogisticRegTrackerMock.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAWDSessionTracker.h">PMLAWDSessionTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAWDSessionTrackerMock.h">PMLAWDSessionTrackerMock.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAppleDirectory.h">PMLAppleDirectory.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLAppleDirectoryBuilder.h">PMLAppleDirectoryBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLClassificationEvaluationMetrics.h">PMLClassificationEvaluationMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLConstantNoiseStrategy.h">PMLConstantNoiseStrategy.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLDataChunk.h">PMLDataChunk.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLDataChunkDenseDoubleVector.h">PMLDataChunkDenseDoubleVector.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLDataChunkDenseFloatVector.h">PMLDataChunkDenseFloatVector.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLDataChunkPlist.h">PMLDataChunkPlist.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLDataChunkRaw.h">PMLDataChunkRaw.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLDenseMatrix.h">PMLDenseMatrix.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLDenseVector.h">PMLDenseVector.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLDiffPrivacyNoiseStrategy.h">PMLDiffPrivacyNoiseStrategy.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLFidesTracker.h">PMLFidesTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLGaussianSampler.h">PMLGaussianSampler.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLGradientSolver.h">PMLGradientSolver.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLHashingVectorizer.h">PMLHashingVectorizer.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLInMemoryCachedStore.h">PMLInMemoryCachedStore.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLLaplaceSampler.h">PMLLaplaceSampler.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLLinRegTrainingPlan.h">PMLLinRegTrainingPlan.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLLinearRegressionModel.h">PMLLinearRegressionModel.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLLogRegEvaluationPlan.h">PMLLogRegEvaluationPlan.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLLogRegTrainingPlan.h">PMLLogRegTrainingPlan.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLLogisticRegressionModel.h">PMLLogisticRegressionModel.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLModelDescriptor.h">PMLModelDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLModelLearningRates.h">PMLModelLearningRates.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLModelRegressor.h">PMLModelRegressor.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLModelWeights.h">PMLModelWeights.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLMutableDenseVector.h">PMLMutableDenseVector.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLNaiveBayesEvaluationPlan.h">PMLNaiveBayesEvaluationPlan.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLNaiveBayesModel.h">PMLNaiveBayesModel.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLNaiveBayesSolver.h">PMLNaiveBayesSolver.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLNoNoiseStrategy.h">PMLNoNoiseStrategy.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLPassThroughTracker.h">PMLPassThroughTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLPlanDescriptor.h">PMLPlanDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLPlanSerialization.h">PMLPlanSerialization.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLPlanSimulator.h">PMLPlanSimulator.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLPlanWrapper.h">PMLPlanWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLPreinstalledPlansBuilder.h">PMLPreinstalledPlansBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLPreinstalledPlansManager.h">PMLPreinstalledPlansManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLProtoBufTracker.h">PMLProtoBufTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLSessionDescriptor.h">PMLSessionDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLSparseMatrix.h">PMLSparseMatrix.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLSparseVector.h">PMLSparseVector.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLSpotlightReference.h">PMLSpotlightReference.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLTrackerAWDAdapter.h">PMLTrackerAWDAdapter.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLTrackerMockAdapter.h">PMLTrackerMockAdapter.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLTrackerParsecAdapter.h">PMLTrackerParsecAdapter.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLTraining.h">PMLTraining.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLTrainingDatabaseMigrations.h">PMLTrainingDatabaseMigrations.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLTrainingLogEntry.h">PMLTrainingLogEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLTrainingMock.h">PMLTrainingMock.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLTrainingStore.h">PMLTrainingStore.h</A>
+<A HREF="/tree/PrivateFrameworks/ProactiveML.framework/PMLTrainingStoredSessionBatch.h">PMLTrainingStoredSessionBatch.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

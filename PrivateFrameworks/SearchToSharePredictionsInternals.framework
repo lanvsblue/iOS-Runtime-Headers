@@ -1,0 +1,82 @@
+<HTML>
+<HEAD>
+<TITLE>SearchToSharePredictionsInternals.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SearchToSharePredictionsInternals.framework
+24 classes
+
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPAsset.h">SGQPAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPAssetManager.h">SGQPAssetManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPDatabaseMigrations.h">SGQPDatabaseMigrations.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPEmotivePhraseDefinition.h">SGQPEmotivePhraseDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPEmotivePhrases.h">SGQPEmotivePhrases.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPLanguageContext.h">SGQPLanguageContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPLanguageDetection.h">SGQPLanguageDetection.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPMLPredictor.h">SGQPMLPredictor.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPMetricsTracker.h">SGQPMetricsTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPMultiLabelModel.h">SGQPMultiLabelModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPMultiLabelRankingEvaluationPlan.h">SGQPMultiLabelRankingEvaluationPlan.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPMutablePredictionsSession.h">SGQPMutablePredictionsSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPMutableSettings.h">SGQPMutableSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPMutableUserSession.h">SGQPMutableUserSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPParsecEntitiesPredictor.h">SGQPParsecEntitiesPredictor.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPPhrasebook.h">SGQPPhrasebook.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPPhrasebookBuilder.h">SGQPPhrasebookBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPPhrasebookBuilderEntry.h">SGQPPhrasebookBuilderEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPSessionTracker.h">SGQPSessionTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPSettings.h">SGQPSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPSqlStore.h">SGQPSqlStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPStoredMessage.h">SGQPStoredMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQPWordBoundaries.h">SGQPWordBoundaries.h</A>
+<A HREF="/tree/PrivateFrameworks/SearchToSharePredictionsInternals.framework/SGQueryPredictions.h">SGQueryPredictions.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>
